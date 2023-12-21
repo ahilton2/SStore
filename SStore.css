@@ -1,7 +1,10 @@
-img {
-    width: 100%;
-    height: auto;
-    display: block;
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-image: url('C:\Users\coolc\Downloads\subpenguin full band photo red.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
 .wrapper {
@@ -16,10 +19,9 @@ img[alt="Subpenguin Full Band Photo"] {
 
 .img-info {
     text-align: center;
-    /* width: 100%; Remove this line if unnecessary for your layout */
-    margin: 0 auto; /* Center the text horizontally */
+    margin: 0 auto;
 }
 
 h2 {
-    color: #333;
+    color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
