@@ -13,10 +13,6 @@ body {
     padding: 20px;
 }
 
-img[alt="Subpenguin Full Band Photo"] {
-    display: none;
-}
-
 .img-info {
     text-align: center;
     margin: 0 auto;
