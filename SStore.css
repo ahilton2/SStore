@@ -9,18 +9,7 @@ body {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
     overflow: hidden;
-}
-
-.img-info {
-    text-align: center;
-    margin-bottom: 20px; /* Adds space below text */
-    color: #fff; /* Set text color to white for visibility */
-}
-
-h2 {
-    color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
 
 img {
