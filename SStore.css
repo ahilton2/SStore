@@ -11,8 +11,14 @@ body {
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
-    background: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg') center top / 100% 50% no-repeat; /* Set background properties */
     height: 50vh; /* Set the height of the container to 50% of the viewport height */
+}
+
+.wrapper::before {
+    content: "";
+    display: block;
+    padding-top: 50%; /* Set the padding-top to maintain aspect ratio (50% for a 2:1 aspect ratio) */
+    background: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg') center top / cover no-repeat; /* Set background properties */
 }
 
 .img-info {
@@ -24,3 +30,4 @@ body {
 h2 {
     color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
+
