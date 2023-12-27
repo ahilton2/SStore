@@ -1,31 +1,27 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #000;
+    overflow: hidden; /* Prevent vertical scrolling */
+    background-color: #000; /* Set a background color for better contrast */
 }
 
 .wrapper {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    height: 50vh;
-    overflow: hidden;
+    height: 50vh; /* Set the height of the container to 50% of the viewport height */
+    overflow: hidden; /* Hide any overflowing content */
+    background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
+    background-size: cover;
+    background-position: center top; /* Adjust the vertical position as needed */
 }
 
 .img-info {
     text-align: center;
-    margin-top: 20px;
-    color: #fff;
+    margin-top: 20px; /* Adds space above text */
+    color: #fff; /* Set text color to white for visibility */
 }
 
 h2 {
-    color: rgb(2, 1, 1);
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
