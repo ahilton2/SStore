@@ -12,8 +12,9 @@ body {
     padding: 20px;
     overflow: hidden;
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
-    background-size: auto 50%; /* Maintain aspect ratio while adjusting the height */
+    background-size: 100% 50%; /* Set the width to cover 100% and the height to cover 50% */
     background-position: center top; /* Adjust the vertical position as needed */
+    height: 50vh; /* Set the height of the container to 50% of the viewport height */
 }
 
 .img-info {
