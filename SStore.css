@@ -12,9 +12,8 @@ body {
     padding: 20px;
     overflow: hidden;
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
-    background-size: cover;
+    background-size: auto 50%; /* Maintain aspect ratio while adjusting the height */
     background-position: center top; /* Adjust the vertical position as needed */
-    background-size: 50%; /* Maintain aspect ratio while adjusting the height */
 }
 
 .img-info {
@@ -26,4 +25,3 @@ body {
 h2 {
     color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
-
