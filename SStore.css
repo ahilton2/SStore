@@ -32,5 +32,5 @@ img {
     height: 100%;
     display: block; /* Remove any extra space below inline images */
     object-fit: cover; /* Preserve aspect ratio and cover the specified height */
-    object-position: 50% 20%;
+    object-position: 50% 0%;
 }
