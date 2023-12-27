@@ -14,7 +14,7 @@ body {
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
     background-size: cover;
     background-position: center top; /* Adjust the vertical position as needed */
-    background-size: contain; /* Maintain aspect ratio while adjusting the height */
+    background-size: 50%; /* Maintain aspect ratio while adjusting the height */
 }
 
 .img-info {
