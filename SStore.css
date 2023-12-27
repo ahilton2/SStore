@@ -26,10 +26,11 @@ h2 {
 }
 img {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     display: block; /* Remove any extra space below inline images */
     object-fit: cover; /* Preserve aspect ratio and cover the specified height */
+    object-position: 50% 20%;
 }
