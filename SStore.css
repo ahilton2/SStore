@@ -11,11 +11,12 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
+    overflow: hidden; /* Add overflow property to prevent vertical scrolling */
+        }
 
 .img-info {
     text-align: center;
-    margin: 0 auto;
+    margin-bottom: 20px; /*adds space below text
 }
 
 h2 {
@@ -26,5 +27,5 @@ img {
     height: auto;
     display: block; /* Remove any extra space below inline images */
     margin: 0 auto; /* Center the image */
-    max-width: 50%;
+    max-width: 300px;
 }
