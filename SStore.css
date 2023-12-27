@@ -1,24 +1,32 @@
-
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #000;
+    overflow: hidden; /* Prevent vertical scrolling */
+    background-color: #000; /* Set a background color for better contrast */
 }
 
 .wrapper {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    height: 50vh;
-    overflow: hidden;
+    height: 50vh; /* Set the height of the container to 50% of the viewport height */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.img-info {
     text-align: center;
-    color: #fff;
+    margin-top: 20px; /* Adds space above text */
+    color: #fff; /* Set text color to white for visibility */
+}
+
+h2 {
+    color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
 
 img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover; /* Preserve aspect ratio and cover the specified height */
+    position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
