@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
-    height: 50vh; /* Set the height of the container to 50% of the viewport height */
+    height: 60vh; /* Set the height of the container to 50% of the viewport height */
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
     background-size: cover;
     background-position: center center; /* Center the background image both horizontally and vertically */
@@ -29,7 +29,7 @@ h2 {
 
 img {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
