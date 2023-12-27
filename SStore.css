@@ -11,8 +11,8 @@ body {
     margin: 0 auto;
     height: 50vh; /* Set the height of the container to 50% of the viewport height */
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
-    background-size: contain; /* Adjusted to contain instead of cover */
-    background-position: center center; /* Center the background image both horizontally and vertically */
+    background-size: cover;
+    background-position: center top; /* Adjusted to show the top of the image */
 }
 
 .img-info {
@@ -24,3 +24,4 @@ body {
 h2 {
     color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
 }
+
