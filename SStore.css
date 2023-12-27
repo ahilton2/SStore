@@ -11,9 +11,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
-    background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
-    background-size: 100% 50%; /* Set the width to cover 100% and the height to cover 50% */
-    background-position: center top; /* Adjust the vertical position as needed */
+    background: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg') center top / 100% 50% no-repeat; /* Set background properties */
     height: 50vh; /* Set the height of the container to 50% of the viewport height */
 }
 
