@@ -23,4 +23,3 @@ img {
     display: block; /* Remove any extra space below inline images */
      object-fit: cover; /* Preserve aspect ratio and cover the specified height */
 }
-}
