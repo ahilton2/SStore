@@ -19,6 +19,6 @@ h2 {
 }
 img {
     width: 100%;
-    max-height: 400px;
+    max-height: 30%;
     display: block; /* Remove any extra space below inline images */
 }
