@@ -11,12 +11,9 @@ body {
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
-}
-
-.wrapper::before {
-    content: "";
-    display: block;
-    padding-top: 75%; /* Adjust the padding-top to achieve the desired aspect ratio (e.g., 75% for 4:3) */
+    background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
+    background-size: cover;
+    background-position: center top; /* Adjust the vertical position as needed */
 }
 
 .img-info {
@@ -38,4 +35,3 @@ img {
     display: block; /* Remove any extra space below inline images */
     object-fit: cover; /* Preserve aspect ratio and cover the specified height */
 }
-
