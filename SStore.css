@@ -2,6 +2,7 @@ body {
     margin: 0; /* Remove default body margin */
     padding: 0; /* Remove default body padding */
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
+    background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
@@ -19,4 +20,8 @@ body {
 
 h2 {
     color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
