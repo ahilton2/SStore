@@ -9,9 +9,7 @@ body {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    overflow: hidden;
-    height: 60vh; /* Set the height of the container to 50% of the viewport height */
+    height: 50vh; /* Set the height of the container to 50% of the viewport height */
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
     background-size: cover;
     background-position: center center; /* Center the background image both horizontally and vertically */
@@ -19,20 +17,10 @@ body {
 
 .img-info {
     text-align: center;
-    margin-bottom: 20px; /* Adds space below text */
+    margin-top: 20px; /* Adds space above text */
     color: #fff; /* Set text color to white for visibility */
 }
 
 h2 {
     color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
-}
-
-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block; /* Remove any extra space below inline images */
-    object-fit: cover; /* Preserve aspect ratio and cover the specified height */
 }
