@@ -9,9 +9,8 @@ body {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    overflow: hidden;
-    height: 60vh; /* Set the height of the container to 50% of the viewport height */
+    height: 60vh; /* Set the height of the container to 60% of the viewport height */
+    overflow: hidden; /* Hide any overflowing content */
     background-image: url('C:/Users/coolc/Downloads/subpenguin full band photo red.jpg');
     background-size: cover;
     background-position: center center; /* Center the background image both horizontally and vertically */
@@ -35,4 +34,5 @@ img {
     height: 100%;
     display: block; /* Remove any extra space below inline images */
     object-fit: cover; /* Preserve aspect ratio and cover the specified height */
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); /* Adjust the polygon values to change the visible portion of the image */
 }
