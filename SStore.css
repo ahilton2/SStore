@@ -27,5 +27,4 @@ img {
     height: auto;
     display: block; /* Remove any extra space below inline images */
     margin: 0 auto; /* Center the image */
-    max-width: 300px;
 }
