@@ -35,5 +35,5 @@ img {
     height: 150%; /* Adjust the height to extend beyond the container */
     object-fit: cover;
     position: relative;
-    top: -25%; /* Adjust the negative top value to control the amount cropped from the top */
+    top: -50%; /* Adjust the negative top value to control the amount cropped from the top */
 }
