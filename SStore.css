@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevent vertical scrolling */
     background-color: #000; /* Set a background color for better contrast */
 }
 
@@ -29,4 +28,5 @@ img {
     object-fit: cover; /* Preserve aspect ratio and cover the specified height */
     position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    overflow: hidden; /* Prevent vertical scrolling */
 }
