@@ -1,41 +1,34 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000; /* Set a background color for better contrast */
-    overflow: hidden; /* Prevent vertical scrolling */
+    background-color: #000;
+    overflow: hidden;
 }
-
 .wrapper {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    height: 50vh; /* Set the height of the container to 50% of the viewport height */
-    overflow: hidden; /* Hide any overflowing content */
+    height: 50vh;
+    overflow: hidden;
 }
-
 .img-info {
     text-align: center;
-    margin-top: 20px; /* Adds space above text */
-    color: #fff; /* Set text color to white for visibility */
+    margin-top: 20px;
+    color: #fff;
 }
-
 h2 {
-    color: rgb(2, 1, 1); /* Set text color to white or another suitable color for visibility on the image */
+    color: rgb(2, 1, 1);
 }
 .img-container {
     position: relative;
     width: 100%;
-    height: 50%; /* Set the height to 50% for better visibility of the cropping effect */
+    height: 50%;
     overflow: hidden;
 }
-
 img {
     width: 100%;
-    height: 100%;
+    height: 150%; /* Adjust the height to extend beyond the container */
     object-fit: cover;
     position: relative;
-    top: -4%; /* Adjust the negative top value to control the amount cropped from the top */
+    top: -25%; /* Adjust the negative top value to control the amount cropped from the top */
 }
-
-
-    
