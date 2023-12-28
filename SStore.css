@@ -28,7 +28,7 @@ img {
   height: 100%;
   object-fit: cover;
   position: absolute;
-  top: 10px; /* Position from the top */
+  top: 40px; /* Position from the top */
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
