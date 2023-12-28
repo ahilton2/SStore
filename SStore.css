@@ -28,8 +28,11 @@ img {
   height: 100%;
   object-fit: cover;
   position: absolute;
-  top: 40px; /* Position from the top */
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  top: 0; /* Position from the top */
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+}
+.img-container {
+    padding-top: 5%; /* Adjust the percentage to control the amount cropped from the top */
 }
 
     
