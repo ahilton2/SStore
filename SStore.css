@@ -28,5 +28,5 @@ img {
     height: 100%;
     object-fit: cover; /* Preserve aspect ratio and cover the specified height */
     position: absolute;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
