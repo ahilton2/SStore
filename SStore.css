@@ -25,12 +25,16 @@ h2 {
 .img-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 50%; /* Set the height to 50% for better visibility of the cropping effect */
     overflow: hidden;
-    padding-top: 4%;
 }
+
 img {
-  width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: -4%; /* Adjust the negative top value to control the amount cropped from the top */
 }
 
 
