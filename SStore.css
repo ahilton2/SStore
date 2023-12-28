@@ -26,14 +26,16 @@ h2 {
 .img-container {
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 100%;
     overflow: hidden;
+    padding-top: 5%;
 }
 
 img {
     width: 100%;
-    height: 150%; /* Adjust the height to extend beyond the container */
+    height: 100%;
     object-fit: cover;
-    position: relative;
-    top: -50%; /* Adjust the negative top value to control the amount cropped from the top */
+    position: absolute;
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
